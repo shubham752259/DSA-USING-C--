@@ -19,17 +19,19 @@ int main()
     
     s.insert(0);
 
-    for(auto i : s){
+    for(auto i : s)
+    {
         cout<<i<<" ";
-    } cout<<endl;
-    
+    }   cout<<endl;
+
     set<int>::iterator it = s.begin();
 
     it++;
 
     s.erase(it);
 
-    for(auto i:s){
+    for(auto i:s)
+    {
         cout<<i<<" ";
     }
 
@@ -41,9 +43,10 @@ int main()
 
     cout<<"Value present at itr-> "<<*it<<endl;
 
-    for(auto it=itr; it!=s.end();it++){
+    for(auto it=itr; it!=s.end();it++)
+    {
         cout<<*it<<" ";
-    }cout<<endl;
+    }   cout<<endl;
 
 return 0;
 }
