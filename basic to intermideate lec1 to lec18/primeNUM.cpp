@@ -16,7 +16,7 @@ if(isPrime == 0){
     cout<<"Not a prime number";
 }
 else{
-    cout<<"number is prime";
+    cout<<n <<" is prime";
 }
 return 0;
 }
